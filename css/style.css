@@ -49,8 +49,16 @@ body {
   margin-bottom: 0;
 }
 
+.team_section h2 span {
+  color: #00bbf0;
+}
+
 .heading_container h2 span {
   color: #00bbf0;
+}
+
+.heading_container h2 {
+  color: #010203;
 }
 
 .heading_container p {
@@ -602,8 +610,8 @@ a:focus {
 /*team section */
 .team_section {
   text-align: center;
-  background-color: #00204a;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #007fa4;
 }
 
 .team_section .heading_container {
@@ -928,3 +936,37 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.container-box {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.input-field {
+  padding: 7px;
+  margin: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 1px black;
+  width: 250px;
+  max-width: 500px;
+  max-height: 500px;
+  background-color: rgb(236, 227, 227);
+}
+
+.input-field:focus {
+  background-color: white;
+}
+
+#btn-submit:hover {
+  cursor: pointer;
+  background-color: rgb(107, 218, 107);
+}
+
+#btn-reset:hover  {
+  cursor: pointer;
+  background-color: rgb(255, 48, 48);
+}
